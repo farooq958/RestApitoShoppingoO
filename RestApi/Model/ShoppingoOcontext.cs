@@ -10,6 +10,7 @@ namespace RestApi.Model
        } 
         
         public DbSet<Page> Pages { get; set; }
-       
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }
